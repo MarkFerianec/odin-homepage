@@ -1,0 +1,18 @@
+/* Desktop */
+body {
+  background-color: blue;
+}
+
+/* Tablet */
+@media (max-width: 1200px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
