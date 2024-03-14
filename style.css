@@ -57,9 +57,9 @@
 
   .name {
     position: absolute;
-    top: 85%;
+    top: 80%;
 
-    font-size: 5vw;
+    font-size: 10vw;
     color: white;
   }
 
@@ -162,5 +162,25 @@
 
   .contact-me {
     text-align: center;
+  }
+
+  footer {
+    background-color: rgb(53, 100, 202);
+    padding-bottom: 10vh;
+  }
+
+  footer h2,
+  footer h3,
+  footer p {
+    color: white;
+  }
+
+  footer h3,
+  footer p {
+    margin-left: 5vw;
+  }
+
+  .footer-img {
+    width: 100vw;
   }
 }
