@@ -141,8 +141,23 @@
     box-shadow: 6px 7px 11px #8f8f8f;
   }
 
+  .project-name-and-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .project-name {
     margin-left: 5vw;
+  }
+
+  .project-icons {
+    margin-right: 4vw;
+  }
+
+  .project-github-icon,
+  .project-open-icon {
+    width: 6vw;
   }
 
   .description {
