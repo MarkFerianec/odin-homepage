@@ -67,6 +67,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-bottom: 10vh;
   }
 
   .photo-and-name > img {
@@ -75,6 +77,17 @@
     /* object-fit: cover; */
 
     box-shadow: 6px 7px 11px #8f8f8f;
+  }
+
+  .github-icon,
+  .linkedin-icon,
+  .twitter-icon {
+    width: 10vw;
+  }
+
+  .header-icons {
+    display: flex;
+    gap: 4vw;
   }
 
   header > p {
