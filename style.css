@@ -208,6 +208,14 @@
     margin-left: 5vw;
   }
 
+  .footer-icons {
+    margin-top: 5vh;
+
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+  }
+
   .footer-img {
     width: 100vw;
   }
