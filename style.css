@@ -37,14 +37,17 @@
   }
 
   .photo-and-name > img {
-    width: 50vw;
+    width: 40vw;
+
+    margin-left: 5vw;
+
+    object-fit: cover;
   }
 
   .photo-and-name {
     position: relative;
 
     margin-top: 5vh;
-    margin-left: -30vw;
 
     display: flex;
     justify-content: center;
@@ -57,16 +60,31 @@
     color: black;
   }
 
+  .about-me-and-text {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30vh;
+    margin-left: 3vw;
+    margin-right: 5vw;
+  }
+
   .footer-img {
     width: 30vw;
   }
 
-  .header {
+  header {
     display: flex;
-    flex-direction: row;
   }
 
-  .header h2 {
+  .header-icons {
+    display: flex;
+
+    width: 10vw;
+
+    align-self: flex-end;
+
+    gap: 1vw;
   }
 
   .github-icon,
@@ -82,6 +100,13 @@
 }
 
 /* Mobile */
+/* 
+
+sdafgxvdjsfvdjvhfgsafhsuf
+sgfsafsadfsadfasdfasdfasdf
+sadfasdfsadfasdfsdadfsafs
+
+*/
 @media (min-width: 1px) and (max-width: 600px) {
   body {
     margin: 0;
@@ -125,6 +150,10 @@
     box-shadow: 6px 7px 11px #8f8f8f;
   }
 
+  .about-me-and-text {
+    text-align: center;
+  }
+
   .github-icon,
   .linkedin-icon,
   .twitter-icon {
@@ -133,6 +162,8 @@
 
   .header-icons {
     display: flex;
+    justify-content: center;
+
     gap: 4vw;
   }
 
