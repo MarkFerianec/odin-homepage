@@ -36,35 +36,69 @@
     background-color: rgb(179, 179, 179);
   }
 
-  .photo-and-name > img {
+  .header-img {
+    width: 50vw;
+    float: left !important;
+
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  .about-me-text {
+    background-color: white;
+
+    margin-top: 25vh;
+    margin-right: 3vw;
+    margin-left: 10vw;
+  }
+
+  .about-me-heading {
+    font-size: 5vw;
+
+    padding-top: 8vh;
+  }
+
+  .about-me-paragraph {
+    font-size: 3vw;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  /* .photo-and-name > img {
     width: 40vw;
 
     margin-left: 5vw;
 
     object-fit: cover;
-  }
+  } */
 
-  .photo-and-name {
+  /* .photo-and-name {
     position: relative;
 
     margin-top: 5vh;
 
     display: flex;
     justify-content: center;
-  }
+  } */
 
   .name {
     position: absolute;
 
     font-size: 5vw;
     color: black;
+
+    margin-left: 10vw;
   }
 
-  .about-me-and-text {
-    display: flex;
-    flex-direction: column;
+  .about-me-and-photo {
+    /* I don't think I need these commented out lines */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 40vw; */
 
-    margin-top: 30vh;
+    margin-top: 10vh;
     margin-left: 3vw;
     margin-right: 5vw;
   }
@@ -80,11 +114,12 @@
   .header-icons {
     display: flex;
 
-    width: 10vw;
-
-    align-self: flex-end;
+    width: 15vw;
 
     gap: 1vw;
+
+    margin-left: 60vw;
+    padding-bottom: 2vh;
   }
 
   .github-icon,
