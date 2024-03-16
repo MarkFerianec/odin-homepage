@@ -54,7 +54,7 @@
   }
 
   .about-me-heading {
-    font-size: 5vw;
+    font-size: 4vw;
 
     padding-top: 8vh;
   }
@@ -109,6 +109,12 @@
 
   header {
     display: flex;
+
+    padding-bottom: 5vh;
+  }
+
+  main h2 {
+    padding-left: 5vw;
   }
 
   .header-icons {
@@ -131,6 +137,107 @@
   .project-github-icon,
   .project-open-icon {
     width: 6vw;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    grid-template-rows: 33fr 33fr 33fr;
+    gap: 5vw;
+
+    /* May not be necessary anymore? */
+    /* justify-content: center; */
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screenshot-of-project {
+    width: 100%;
+
+    height: 30vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 6px 7px 11px #8f8f8f;
+  }
+
+  .screenshot-text {
+    text-align: center;
+
+    /* margin: 2vw; */
+    color: white;
+    /* Should this font-size be a different unit like rem? */
+    font-size: 2rem;
+
+    padding: 2vw;
+  }
+
+  .project-text {
+    width: 100%;
+
+    /* height: 30vh; */
+
+    background-color: white;
+
+    /* margin-bottom: 15vh; */
+
+    box-shadow: 6px 7px 11px #8f8f8f;
+  }
+
+  .project-name-and-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .project-name {
+    margin-left: 3vw;
+  }
+
+  .project-icons {
+    margin-right: 2vw;
+  }
+
+  .project-github-icon,
+  .project-open-icon {
+    width: 3vw;
+  }
+
+  .description {
+    margin-left: 3vw;
+  }
+
+  .project-1 {
+    background-color: purple;
+  }
+
+  .project-2 {
+    background-color: orange;
+  }
+
+  .project-3 {
+    background-color: green;
+  }
+
+  .project-4 {
+    background-color: pink;
+  }
+
+  .project-5 {
+    background-color: blue;
+  }
+
+  .project-6 {
+    background-color: red;
   }
 }
 
