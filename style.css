@@ -255,7 +255,7 @@
   .contact-and-icons {
     margin-left: 5vw;
     margin-top: 3vh;
-    margin-right: 5vw;
+    margin-right: 7vw;
     margin-bottom: 3vh;
 
     width: 40vw;
@@ -278,11 +278,25 @@
     display: flex;
     width: 15vw;
     gap: 2vw;
+
+    padding-top: 3vh;
   }
 
   .footer-img {
     object-fit: cover;
     width: 40vw;
+  }
+
+  .phone-number-and-icon,
+  .email-and-icon {
+    display: flex;
+  }
+
+  .phone-icon,
+  .email-icon {
+    width: 4vw;
+    fill: white;
+    margin-right: 1vw;
   }
 }
 
