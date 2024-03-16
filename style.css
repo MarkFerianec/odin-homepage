@@ -459,6 +459,8 @@ sadfasdfsadfasdfsdadfsafs
   footer {
     background-color: rgb(53, 100, 202);
     padding-bottom: 10vh;
+
+    width: 100%;
   }
 
   .contact-and-icons {
@@ -466,15 +468,27 @@ sadfasdfsadfasdfsdadfsafs
     padding-bottom: 5vh;
   }
 
+  .something {
+    margin-left: 5vw;
+  }
+
+  .phone-icon,
+  .email-icon {
+    width: 5vw;
+    fill: white;
+    margin-right: 2vw;
+  }
+
+  .phone-number-and-icon,
+  .email-and-icon {
+    display: flex;
+    margin-left: 5vw;
+  }
+
   footer h2,
   footer h3,
   footer p {
     color: white;
-  }
-
-  footer h3,
-  footer p {
-    margin-left: 5vw;
   }
 
   .footer-icons {
