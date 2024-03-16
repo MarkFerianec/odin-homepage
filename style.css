@@ -461,6 +461,11 @@ sadfasdfsadfasdfsdadfsafs
     padding-bottom: 10vh;
   }
 
+  .contact-and-icons {
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+  }
+
   footer h2,
   footer h3,
   footer p {
@@ -482,5 +487,9 @@ sadfasdfsadfasdfsdadfsafs
 
   .footer-img {
     width: 100vw;
+
+    object-fit: cover;
+
+    position: absolute;
   }
 }
