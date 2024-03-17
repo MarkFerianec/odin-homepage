@@ -168,7 +168,7 @@
 
   .project-github-icon,
   .project-open-icon {
-    width: 3vw;
+    width: 2vw;
   }
 
   .description {
@@ -584,6 +584,12 @@ sadfasdfsadfasdfsdadfsafs
 
   .about-me-text {
     text-align: center;
+  }
+
+  .about-me-paragraph {
+    margin-bottom: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
   .github-icon,
