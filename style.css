@@ -1,34 +1,270 @@
 /* Desktop */
-/* body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.918);
-} */
+@media (min-width: 1201px) {
+  body {
+    margin: 0;
 
-/* img { */
-/* flex-direction: column; */
-/* width: 40vw; */
-/* object-fit: cover; */
-/* } */
+    background-color: rgb(179, 179, 179);
+  }
 
-/* h1 {
-  size: 40vw;
-  Change this to white eventually and put it on top of the picture?
-  color: white;
-} */
+  .name-and-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 
-/* h2 {
-  color: black;
-  size: 30vw;
-} */
+    position: relative;
 
-/* p {
-  color: ;
-} */
+    margin-left: 5vw;
+  }
+
+  .header-img {
+    width: 35vw;
+
+    object-fit: cover;
+
+    /* margin-right: 3vw; */
+    /* margin-bottom: 2vw; */
+
+    box-shadow: 6px 7px 11px #8f8f8f;
+
+    /* display: relative; */
+  }
+
+  .about-me-text {
+    background-color: white;
+
+    margin-top: 8vh;
+    margin-right: 5vw;
+    margin-bottom: 25vh;
+
+    box-shadow: 6px 7px 11px #8f8f8f;
+  }
+
+  .about-me-heading {
+    font-size: 2.5vw;
+
+    margin-left: 3vw;
+  }
+
+  .about-me-paragraph {
+    font-size: 1.5vw;
+
+    margin-left: 3vw;
+    margin-right: 5vw;
+  }
+
+  .name {
+    position: absolute;
+
+    font-size: 5vw;
+    color: white;
+  }
+
+  .about-me-and-photo {
+    display: flex;
+    margin-top: 10vh;
+    /* margin-left: 3vw; */
+    /* margin-right: 5vw; */
+  }
+
+  .footer-img {
+    width: 30vw;
+  }
+
+  header {
+    display: flex;
+
+    padding-bottom: 5vh;
+  }
+
+  main {
+    margin-bottom: 15vh;
+  }
+
+  main h2 {
+    padding-left: 5vw;
+  }
+
+  .header-icons {
+    display: flex;
+
+    width: 10vw;
+
+    gap: 1vw;
+
+    margin-top: 10vh;
+    margin-left: 40vw;
+  }
+
+  .github-icon,
+  .linkedin-icon,
+  .twitter-icon {
+    width: 10vw;
+  }
+
+  .project-github-icon,
+  .project-open-icon {
+    width: 6vw;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    grid-template-rows: 33fr 33fr 33fr;
+    gap: 5vw;
+
+    /* May not be necessary anymore? */
+    /* justify-content: center; */
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screenshot-of-project {
+    width: 100%;
+
+    height: 30vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 6px 7px 11px #8f8f8f;
+  }
+
+  .screenshot-text {
+    text-align: center;
+
+    /* margin: 2vw; */
+    color: white;
+    /* Should this font-size be a different unit like rem? */
+    font-size: 2rem;
+
+    padding: 2vw;
+  }
+
+  .project-text {
+    width: 100%;
+
+    /* height: 30vh; */
+
+    background-color: white;
+
+    /* margin-bottom: 15vh; */
+
+    box-shadow: 6px 7px 11px #8f8f8f;
+  }
+
+  .project-name-and-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .project-name {
+    margin-left: 3vw;
+  }
+
+  .project-icons {
+    margin-right: 2vw;
+  }
+
+  .project-github-icon,
+  .project-open-icon {
+    width: 3vw;
+  }
+
+  .description {
+    margin-left: 3vw;
+  }
+
+  .project-1 {
+    background-color: purple;
+  }
+
+  .project-2 {
+    background-color: orange;
+  }
+
+  .project-3 {
+    background-color: green;
+  }
+
+  .project-4 {
+    background-color: pink;
+  }
+
+  .project-5 {
+    background-color: blue;
+  }
+
+  .project-6 {
+    background-color: red;
+  }
+
+  footer {
+    display: flex;
+    background-color: rgb(53, 100, 202);
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  .contact-and-icons {
+    margin-left: 5vw;
+    margin-top: 3vh;
+    margin-right: 7vw;
+    margin-bottom: 3vh;
+
+    width: 40vw;
+  }
+
+  .contact-me {
+    font-size: 5vw;
+  }
+
+  .contact {
+    color: white;
+  }
+
+  .contact h3,
+  .contact p {
+    font-size: 2.5vw;
+  }
+
+  .footer-icons {
+    display: flex;
+    width: 15vw;
+    gap: 2vw;
+
+    padding-top: 3vh;
+  }
+
+  .footer-img {
+    object-fit: cover;
+    width: 40vw;
+  }
+
+  .phone-number-and-icon,
+  .email-and-icon {
+    display: flex;
+  }
+
+  .phone-icon,
+  .email-icon {
+    width: 4vw;
+    fill: white;
+    margin-right: 1vw;
+  }
+}
 
 /* Tablet */
-/* @media (max-width: 1200px) { */
 @media (min-width: 601px) and (max-width: 1200px) {
   body {
     margin: 0;
