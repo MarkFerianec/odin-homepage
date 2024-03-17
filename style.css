@@ -3,7 +3,7 @@
   body {
     margin: 0;
 
-    background-color: rgb(179, 179, 179);
+    /* background-color: rgb(179, 179, 179); */
   }
 
   .name-and-photo {
@@ -22,12 +22,7 @@
 
     object-fit: cover;
 
-    /* margin-right: 3vw; */
-    /* margin-bottom: 2vw; */
-
     box-shadow: 6px 7px 11px #8f8f8f;
-
-    /* display: relative; */
   }
 
   .about-me-text {
@@ -63,8 +58,6 @@
   .about-me-and-photo {
     display: flex;
     margin-top: 10vh;
-    /* margin-left: 3vw; */
-    /* margin-right: 5vw; */
   }
 
   .footer-img {
@@ -109,12 +102,10 @@
 
   .projects {
     display: grid;
-    grid-template-columns: 50fr 50fr;
-    grid-template-rows: 33fr 33fr 33fr;
     gap: 5vw;
 
-    /* May not be necessary anymore? */
-    /* justify-content: center; */
+    grid-template-columns: 33fr 33fr 33fr;
+    grid-template-rows: 50fr 50fr;
 
     padding-left: 5vw;
     padding-right: 5vw;
